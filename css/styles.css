@@ -4,6 +4,13 @@ html {
     padding: 10px;
 }
 
+.body {
+    background-color: #e0e0e0;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -14,9 +21,9 @@ html {
 
 .logo {
     font-family: 'Roboto', Arial, sans-serif;
-    font-size: 35px;
-    margin: 10px;
-    padding: 10px;
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
     border-radius: 80px;
     font-weight: bold;
     font-style : italic;
@@ -28,4 +35,9 @@ html {
     padding: 10px;
     border-radius: 40px;
     background-color: green;
+}
+
+.nav-menu {
+    margin: 10px;
+    padding: 10px;
 }
