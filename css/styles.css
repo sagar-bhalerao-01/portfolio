@@ -12,11 +12,14 @@ html {
 }
 
 .logo {
-    margin: 1px;
-    padding: 1px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 80px;
     background-color: red
 }
 
 .contact {
+    margin: 10px;
+    padding: 20px;
     background-color: green;
 }
