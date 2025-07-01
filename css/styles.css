@@ -1,4 +1,5 @@
 html {
+    background-color: black;
     margin:10px;
     padding: 10px;
 }
@@ -7,19 +8,22 @@ html {
     display: flex;
     justify-content: space-between;
     background-color: #e0e0e0;
-    padding: 10px 10px;
+    padding: 5px 5px;
     border-radius: 10px;
 }
 
 .logo {
-    margin: 10px;
-    padding: 20px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 18px;
+    margin: 5px;
+    padding: 5px;
     border-radius: 80px;
-    background-color: red
+    font-weight: 400;
 }
 
 .contact {
     margin: 10px;
-    padding: 20px;
+    padding: 10px;
+    border-radius: 40px;
     background-color: green;
 }
