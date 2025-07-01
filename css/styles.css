@@ -37,6 +37,8 @@ html {
 }
 
 .nav-menu {
+    display: flex;
+    justify-content: center;
     margin: 10px;
     padding: 10px;
     gap: 16px;
