@@ -16,5 +16,5 @@ html {
 
 .logo .logo1,
 .logo .logo2 {
-    display: block;
+    display: flex;
 }
