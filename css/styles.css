@@ -12,4 +12,10 @@ html {
 
 .logo {
     display: flex;
+    flex-direction: column;
+}
+
+.logo .logo1,
+.logo .logo2 {
+    display: block;
 }
