@@ -1,5 +1,5 @@
 html {
-    background-color: black;
+    background-color: white;
     margin:10px;
     padding: 10px;
 }
@@ -14,7 +14,7 @@ html {
 
 .logo {
     font-family: 'Roboto', Arial, sans-serif;
-    font-size: 25px;
+    font-size: 35px;
     margin: 10px;
     padding: 10px;
     border-radius: 80px;
