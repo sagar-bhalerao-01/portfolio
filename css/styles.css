@@ -3,9 +3,13 @@ html {
     padding: 10px;
 }
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     background-color: gery;
     padding: 1px 1px;
+}
+
+.logo {
+    display: flex;
 }
