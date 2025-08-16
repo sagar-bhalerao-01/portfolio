@@ -1,15 +1,15 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .nav-bar {
     background-color: #15154f;
     color: #fff;
     padding: 10px;
-    text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -17,16 +17,18 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
 }
 
 .nav-bar li {
-    display: flex;
     margin: 10px;
-    padding: 10px
 }
 
 .nav-bar a {
     color: #fff;
+    text-decoration: none;
     transition: color 0.2s ease;
 }
 
@@ -34,7 +36,27 @@
     color: #ccc;
 }
 
-.nav-bar .logo img {
+.cta {
+    margin-right: 20px;
+}
+
+.btn {
+    background-color: #fff;
+    color: #15154f;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.logo {
+    margin-left: 0;
+}
+
+.logo img {
     height: 20px;
     width: auto;
+}
+
 }
