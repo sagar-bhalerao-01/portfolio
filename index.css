@@ -37,6 +37,6 @@
 .nav-bar .logo img {
     height: 100px;
     width: auto;
-    margin-right: 50px;
+    margin-right: 0;
     transform: rotate(-90deg);
 }
