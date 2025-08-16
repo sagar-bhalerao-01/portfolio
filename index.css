@@ -6,7 +6,7 @@
 .nav-bar {
     background-color: #15154f;
     color: #fff;
-    padding: 1em;
+    padding: 10px;
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -14,7 +14,7 @@
 }
 
 .nav-bar ul {
-    list-style: none;
+    /*list-style: none;*/
     margin: 0;
     padding: 0;
 }
@@ -25,7 +25,6 @@
 
 .nav-bar a {
     color: #fff;
-    text-decoration: none;
     transition: color 0.2s ease;
 }
 
