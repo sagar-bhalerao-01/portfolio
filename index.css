@@ -56,7 +56,9 @@
 }
 
 .logo img {
-    max-height: 18px; 
+    margin:5px;
+    padding: 5px;
+    max-height: 25px; 
     max-width: 100%;
     height: auto;
     width: auto;
