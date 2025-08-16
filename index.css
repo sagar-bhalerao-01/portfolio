@@ -38,5 +38,5 @@
     height: 100px;
     width: auto;
     margin-right: 20px;
-    transform: rotate(90deg);
+    transform: rotate(-90deg);
 }
