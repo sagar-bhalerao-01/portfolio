@@ -20,6 +20,7 @@
 }
 
 .nav-bar li {
+    display: flex;
     margin: 10px;
     padding: 10px
 }
