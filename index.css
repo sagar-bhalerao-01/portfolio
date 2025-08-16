@@ -4,7 +4,38 @@
 }
 
 .nav-bar {
-    display:flex;
-    margin:10px;
-    padding:10;
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-bar li {
+    margin-right: 20px;
+}
+
+.nav-bar a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.nav-bar a:hover {
+    color: #ccc;
+}
+
+.nav-bar .logo img {
+    height: 40px;
+    width: auto;
+    margin-right: 20px;
 }
