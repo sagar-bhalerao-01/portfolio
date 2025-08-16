@@ -38,5 +38,5 @@
     height: 100px;
     width: auto;
     margin-right: 0;
-    transform: rotate(-90deg);
+    transform: translateX(-50%) rotate(90deg);
 }
