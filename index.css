@@ -34,7 +34,7 @@
 }
 
 .nav-bar a:hover {
-    color: #fff;
+    color: green;
 }
 
 .cta {
@@ -42,8 +42,8 @@
 }
 
 .btn {
-    background-color: #fff;
-    color: #2da44e;
+    background-color: #2da44e;
+    color: #ffff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -52,10 +52,10 @@
 }
 
 .logo {
-    margin-left: 0;
+    margin-right:20px;
 }
 
 .logo img {
-    height: 20px;
+    size: 20px;
     width: auto;
 }
