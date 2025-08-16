@@ -27,13 +27,13 @@
 }
 
 .nav-bar a {
-    color: green;
+    color: #fff;
     text-decoration: none;
     transition: color 0.2s ease;
 }
 
 .nav-bar a:hover {
-    color: blue;
+    color: #fff;
 }
 
 .cta {
@@ -42,7 +42,7 @@
 
 .btn {
     background-color: #fff;
-    color: #15154f;
+    color: #2da44e;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
