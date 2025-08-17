@@ -59,9 +59,7 @@
 }
 
 .logo img {
-    /*border-radius: 10px;*/
-    max-height: 25px; 
-    /*max-width: 40px;*/
-    /*height: auto;*/
+    margin-top:2px;
+    max-height: 25px;
     width: auto;
 }
