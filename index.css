@@ -54,13 +54,13 @@
 .logo {
     background-color: #15154f;
     border-radius: 10px;
-    margin: 5px;
-    padding: 5px;
+    margin: 1px;
+    padding: 1px;
 }
 
 .logo img {
     /*border-radius: 10px;*/
-    max-height: 18px; 
+    max-height: 30px; 
     max-width: 40px;
     /*height: auto;*/
     /*width: auto;*/
