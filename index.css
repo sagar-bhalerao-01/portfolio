@@ -56,11 +56,11 @@
 }
 
 .logo img {
-    margin-top: 4px;
+    margin-top: 10px;
     margin:5px;
     padding: 5px;
     max-height: 40px; 
-    max-width: 100%;
-    height: auto;
-    width: auto;
+    max-width: 60px;
+    /*height: auto;*/
+    /*width: auto;*/
 }
