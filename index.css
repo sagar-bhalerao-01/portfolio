@@ -60,8 +60,8 @@
 
 .logo img {
     /*border-radius: 10px;*/
-    /*max-height: 30px; 
-    max-width: 40px;*/
-    height: auto;
+    max-height: 30px; 
+    /*max-width: 40px;*/
+    /*height: auto;*/
     width: auto;
 }
