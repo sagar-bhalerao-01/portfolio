@@ -52,11 +52,13 @@
 }
 
 .logo {
+    border-radius: 10px;
     margin: 5px;
     padding: 5px;
 }
 
 .logo img {
+    /*border-radius: 10px;*/
     max-height: 18px; 
     max-width: 40px;
     /*height: auto;*/
