@@ -62,3 +62,10 @@
     width: auto;
     border-radius: 30px;
 }
+
+.hero-home{
+    border:black;
+    border-radius:10px;
+    height:100px;
+    width: 200px;
+}
