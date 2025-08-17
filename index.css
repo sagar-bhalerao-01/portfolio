@@ -6,7 +6,7 @@
 }
 
 .nav-bar {
-    background-color: #87cefa;
+    /*background-color: #87cefa;*/
     color: #fff;
     padding: 10px;
     display: flex;
@@ -57,7 +57,6 @@
 }
 
 .logo img {
-   /*margin-left: 10%;*/
     margin-top:5px;
     max-height: 30px;
     width: auto;
