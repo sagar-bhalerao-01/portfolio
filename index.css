@@ -36,12 +36,9 @@
 .nav-bar a:hover {
     color: green;
 }
-/*
-.cta {
-    margin-right: 40px;
-}*/
 
 .btn {
+    margin-left: 10%;
     background-color: #2da44e;
     color: #ffff;
     padding: 10px 20px;
