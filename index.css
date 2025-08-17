@@ -66,7 +66,7 @@
 .hero-home{
     margin-right: 10%;
     margin-left: 10%;
-    border:black;
+    background-color: green;
     border-radius:10px;
     height:100px;
     width: 200px;
