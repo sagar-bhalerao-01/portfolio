@@ -12,7 +12,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 10%;
 }
 
 .nav-bar ul {
@@ -50,6 +49,7 @@
 }
 
 .logo {
+    margin-left: 10%;
     background-color: #15154f;
     margin: 5px;
     padding: 5px;
