@@ -64,6 +64,8 @@
 }
 
 .hero-home{
+    margin-right: 10%;
+    margin-left: 10%;
     border:black;
     border-radius:10px;
     height:100px;
