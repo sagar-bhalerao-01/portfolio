@@ -7,6 +7,7 @@
 
 .nav-bar {
     color: #fff;
+    margin: 0.6rem;
     padding: 0.6rem;
     display: flex;
     justify-content: space-between;
@@ -33,27 +34,27 @@
 }
 
 .nav-bar a:hover {
-    color: green;
+    color: blue;
 }
 
 .btn {
-    margin-right: 10%;
+    /*margin-right: 1rem;*/
     background-color: #2da44e;
     color: #fff;
-    padding: 0.6rem 1.25rem;
+    padding: 1rem 2rem;
     border: none;
-    border-radius: 0.3rem;
+    border-radius: 0.4rem;
     cursor: pointer;
     text-decoration: none;
 }
 
 .cta {
-    margin-right: 10%;
+    /*margin-right: 1rem;*/
     background-color: #2da44e;
     color: #fff;
-    padding: 0.6rem 1.25rem;
+    padding: 1rem 2rem;
     border: none;
-    border-radius: 0.3rem;
+    border-radius: 0.4rem;
     cursor: pointer;
     text-decoration: none;
 }
@@ -61,14 +62,14 @@
 .logo {
     background-color: #15154f;
     margin: 0.3rem;
-    padding: 0.3rem;
+    padding: 1rem 2rem;
     border-radius: 1.3rem;
-    margin-left: 10%;
+    /*margin-left: 1rem;*/
 }
 
 .logo img {
     margin-top: 0.3rem;
-    max-height: 1.3rem;
+    height: 2rem;
     width: auto;
     border-radius: 1.9rem;
 }
@@ -76,8 +77,6 @@
 .hero-home {
     background-image: url("./img/background_code2_16x9.jpg");
     display: inline-block;
-    margin-right: 10%;
-    margin-left: 50%;
     height: 80vh;
     width: 80vw;
     background-repeat: no-repeat;
