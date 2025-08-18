@@ -2,25 +2,25 @@
     margin: 0;
     padding: 0;
     font-size: 16px;
-    /* 1rem = 16px, can be adjusted for responsiveness */
     box-sizing: border-box;
 }
 
 html,
 body {
-    margin: 1rem;
-    /* Adds a margin around the entire document */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 1rem;
-    /* Adds padding inside the entire document */
 }
 
 .nav-bar {
     color: #fff;
-    padding: 0.625rem;
-    /* Padding in rem for better control */
+    padding: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .nav-bar ul {
@@ -34,7 +34,6 @@ body {
 
 .nav-bar li {
     margin: 0.625rem;
-    /* Adjusted for better readability */
 }
 
 .nav-bar a {
@@ -48,88 +47,161 @@ body {
 }
 
 .btn {
-    margin-right: 0;
-    /* Commented out the manual margin */
     background-color: #2da44e;
     color: #fff;
     padding: 0.625rem 1.25rem;
-    /* Padding adjusted to rem */
     border: none;
     border-radius: 0.3125rem;
-    /* Border radius in rem */
     cursor: pointer;
     text-decoration: none;
+    margin-right: 0;
 }
 
 .cta {
+    padding: 0.625rem 1.25rem;
     background-color: #2da44e;
     color: #fff;
-    padding: 0.625rem 1.25rem;
-    /* Padding in rem */
     border: none;
     border-radius: 0.3125rem;
-    /* Border radius in rem */
     cursor: pointer;
     text-decoration: none;
+    margin: 0;
+    text-align: right;
 }
 
 .logo {
     background-color: #15154f;
-    margin: 0.3125rem;
-    /* Margin in rem for consistency */
+    margin: 0;
     padding: 0.3125rem;
-    /* Padding in rem */
     border-radius: 1.25rem;
-    /* Border radius in rem */
-    margin-left: 0;
-    /* Commented out the manual margin-left */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
 }
 
 .logo img {
-    margin-top: 0.3125rem;
-    /* Adjusted to rem */
-    max-height: 1.25rem;
-    /* Adjusted logo image height */
+    max-height: 3rem;
     width: auto;
     border-radius: 1.875rem;
-    /* Border radius in rem */
 }
 
 .hero-home {
     background-image: url("./img/background_code2_16x9.jpg");
-    display: inline-block;
-    margin: 0.625rem;
-    /* Margin in rem */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     width: 80vw;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 0.625rem;
-    /* Border radius in rem */
-    justify-content: center;
+    padding: 1rem;
+    text-align: center;
 }
 
 h1 {
     margin: 1.25rem;
-    /* Margin in rem */
     padding: 1.25rem;
-    /* Padding in rem */
     color: #2da44e;
     font-size: 2.25rem;
-    /* Font size in rem */
     font-weight: bold;
     text-align: left;
 }
 
 p {
     margin: 1.25rem;
-    /* Margin in rem */
     padding: 1.25rem;
-    /* Padding in rem */
     color: #ffff;
     font-size: 1.75rem;
-    /* Font size in rem */
     font-weight: bold;
     text-align: left;
+}
+
+/* Mobile (Phone) Layout */
+@media (max-width: 600px) {
+
+    /* Hide .btn on small screens */
+    .btn {
+        display: none;
+    }
+
+    .logo {
+        margin-left: 0;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .logo img {
+        max-height: 2rem;
+    }
+
+    .hero-home {
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+    h1,
+    p {
+        text-align: center;
+    }
+
+    .cta {
+        text-align: right;
+        margin: 1rem 0;
+    }
+}
+
+/* Tablet Layout */
+@media (min-width: 601px) and (max-width: 1024px) {
+
+    /* .btn is still hidden on tablets */
+    .btn {
+        display: none;
+    }
+
+    .logo {
+        margin-left: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo img {
+        max-height: 3rem;
+    }
+
+    .hero-home {
+        width: 85vw;
+        margin: 0 auto;
+    }
+
+    h1,
+    p {
+        text-align: center;
+    }
+
+    .cta {
+        text-align: right;
+        margin: 1rem 0;
+    }
+}
+
+/* Desktop Layout */
+@media (min-width: 1025px) {
+    .hero-home {
+        width: 80vw;
+        margin: 0 auto;
+    }
+
+    h1,
+    p {
+        text-align: left;
+        /* Left align the text for large screens */
+    }
+
+    .cta {
+        text-align: right;
+    }
 }
