@@ -43,7 +43,7 @@ html, body {
     color: #fff;
     padding: 1rem 2rem;
     border: none;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     cursor: pointer;
     text-decoration: none;
     height: 1rem;
@@ -54,9 +54,21 @@ html, body {
     color: #fff;
     padding: 1rem 2rem;
     border:none;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     cursor: pointer;
     text-decoration:none;
     height: 1rem;
     width: auto;
+}
+.logo {
+    background-color:#15154f;
+    margin: 0.6rem;
+    padding: 0.6rem;
+    border-radius: 1.2rem;
+}
+.logo img {
+    margin-top: 0.6rem;
+    max-height: 1.6rem;
+    width: auto;
+    border-radius: 2rem;
 }
