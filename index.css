@@ -13,12 +13,15 @@ html, body {
     padding: 1rem;
 }
 .nav-bar {
+    background-color: grey;
     color: #fff;
-    padding: 0.8rem;
+    margin: 0.8rem;
+    padding: 0.8rem 0.8rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+/*
 .nav-bar ul {
     list-style: none;
     margin: 0;
@@ -26,11 +29,12 @@ html, body {
     display: flex;
     justify-content: center;
     flex-grow: 1;
-}
+
 .nav-bar li {
-    margin: 0.6rem;
-}
+    margin: 1rem;
+}*/
 .nav-bar a {
+    padding: 1rem 2rem;
     color: #fff;
     text-decoration: none;
     transition: color.0.2s ease;
@@ -64,11 +68,11 @@ html, body {
     background-color:#15154f;
     margin: 0.6rem;
     padding: 0.6rem;
-    border-radius: 1.2rem;
+    border-radius: 4rem;
 }
 .logo img {
     margin-top: 0.6rem;
-    max-height: 1.6rem;
+    max-height: 1.8rem;
     width: auto;
-    border-radius: 2rem;
+    border-radius: 4rem;
 }
