@@ -12,3 +12,29 @@ html, body {
     margin: 1rem;
     padding: 1rem;
 }
+.nav-bar {
+    color: #fff;
+    padding: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+.nav-bar li {
+    margin: 0.6rem;
+}
+.nav-bar a {
+    color: #fff;
+    text-decoration: none;
+    transition: color.0.2s ease;
+}
+.nav-bar a:hover {
+    color: green;
+}
