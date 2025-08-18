@@ -1,13 +1,14 @@
 * {
     margin: 0;
     padding: 0;
-    font-size: 1rem;
+    font-size: 16px;
     box-sizing: border-box;
 }
 
 .nav-bar {
+    /*background-color: #87cefa;*/
     color: #fff;
-    padding: 0.6rem;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,7 +24,7 @@
 }
 
 .nav-bar li {
-    margin: 0.6rem;
+    margin: 10px;
 }
 
 .nav-bar a {
@@ -39,38 +40,39 @@
 .btn {
     margin-right: 10%;
     background-color: #2da44e;
-    color: #fff;
-    padding: 0.6rem 1.25rem;
+    color: #ffff;
+    padding: 10px 20px;
     border: none;
-    border-radius: 0.3rem;
+    border-radius: 5px;
     cursor: pointer;
     text-decoration: none;
 }
 
 .cta {
-    margin-right: 10%;
+    padding: 20px;
+    margin: 20px;
     background-color: #2da44e;
-    color: #fff;
-    padding: 0.6rem 1.25rem;
+    color:#ffff;
+    padding: 10px 20px;
     border: none;
-    border-radius: 0.3rem;
+    border-radius:5px;
     cursor: pointer;
     text-decoration: none;
 }
 
 .logo {
     background-color: #15154f;
-    margin: 0.3rem;
-    padding: 0.3rem;
-    border-radius: 1.3rem;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
     margin-left: 10%;
 }
 
 .logo img {
-    margin-top: 0.3rem;
-    max-height: 1.3rem;
+    margin-top: 5px;
+    max-height: 20px;
     width: auto;
-    border-radius: 1.9rem;
+    border-radius: 30px;
 }
 
 .hero-home {
@@ -78,25 +80,28 @@
     display: inline-block;
     margin-right: 10%;
     margin-left: 10%;
-    height: 31vh;
+    height: 50vh;
     width: 80vw;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    border-radius: 0.6rem;
-    margin: 0.6rem;
-    padding: 0.6rem;
+    border-radius: 10px;
+    justify-content: center;
 }
 
 h1 {
-    background-color: #2da44e;
-    font-size: 2.25rem;
+    margin: 10 rem;
+    padding: 10 rem;
+    color: #2da44e;
+    font-size: 36px;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
 }
-
 p {
-    font-size: 1.75rem;
-    font-weight: bold;
-    text-align: center;
+    margin: 10 rem;
+    padding:10 rem;
+    color: #ffff;
+    font-size :28px;
+    font-weight:bold;
+    text-align: left;
 }
