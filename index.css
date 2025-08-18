@@ -12,9 +12,9 @@ html,
 body,
 footer {
     font-family: "Helvetica Neue", Arial, sans-serif;
-    font-size: 1 rem;
-    margin: 0;
-    padding: 0;
+    font-size: 1 em;
+    margin: 1em 1em;
+    padding: 1em 1em;
 }
 .nav-bar {
     display: flex;
