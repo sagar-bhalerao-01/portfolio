@@ -9,13 +9,17 @@
 }
 html {
     height: 100%;
-    margin: 0;
     font-family: "Helvetica Neue", Arial, sans-serif;
     font-size: 1 rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.6 rem;
 }
 body {
     width: 100%;
-    margin: 0;
+    background-color: lightgrey;
 }
 footer {
     margin: 0;
