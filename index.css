@@ -8,11 +8,13 @@
     --btn-color : #2da44e;
 }
 html {
+    height: 100%;
     margin: 0;
     font-family: "Helvetica Neue", Arial, sans-serif;
     font-size: 1 rem;
 }
 body {
+    width: 100%;
     margin: 0;
 }
 footer {
