@@ -64,6 +64,7 @@ body {
     color: white;
     box-shadow: 0 0 15px 2px #15154f;
     backdrop-filter:blur(50px);
+    -webkit-backdrop-filter:blur(50px);
 }
 
 
