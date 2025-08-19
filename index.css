@@ -1,8 +1,9 @@
-
+/*
 :root {
     --logo-color : #15154f;
+    --logo-color2: #0f0f3a;
     --btn-color : #2da44e;
-}
+}*/
 html, body {
     height: 100%;
     width:100%;
@@ -15,8 +16,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /*margin: 1rem;*/
-    background: radial-gradient(circle, white 0%, #a0cfff 20%, #3399ff 40%, #0055aa 60%, #001f4d 80%, #15154f 100%);
+    background: radial-gradient(circle, white 0%, #a0cfff 10%, #3399ff 20%, #0055aa 50%, #001f4d 70%, #0f0f3a 100%);
     box-shadow: 0 0 2rem 1rem white;
     background-repeat: no-repeat;
     background-position: center;
@@ -26,28 +26,36 @@ body {
     margin: 0;
 }
 .nav-bar {
-    /*margin: 1rem;*/
+    margin: 0.5rem;
+    padding: 0.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: grey;
 }
 .nav-bar .logo {
-    background-color: ver(--logo-color);
-    margin: 0.5rem;
-    padding: 0.5rem;
+    margin-top: 0.4rem;
 }
 .nav-bar .logo img{
-    height: 2.5rem;
+    /*margin: 1rem;
+    padding: 1rem;*/
+    max-height: 32px;
     width: auto;
-    border-radius: 0.6rem;
+    border-radius: 2rem;
 }
-.nav-bar .btn {
-    margin: 0;
+.btn {
+    /*margin: 1rem;
+    padding: 1rem;*/
+    background-color: #2da44e;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    text-decoration: none;
 }
 .nav-bar .btn a {
-    margin: 0;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 
