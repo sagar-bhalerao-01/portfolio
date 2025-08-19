@@ -15,7 +15,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0;
+    margin: 1rem;
     background: radial-gradient(circle, white 0%, #a0cfff 20%, #3399ff 40%, #0055aa 60%, #001f4d 80%, #15154f 100%);
     box-shadow: 0 0 2rem 1rem white;
     background-repeat: no-repeat;
@@ -29,8 +29,11 @@ footer {
     margin: 0;
 }
 .nav-bar {
+    margin:0;
     display: flex;
-    /*background-color: grey;*/
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: grey;
 }
 
 
