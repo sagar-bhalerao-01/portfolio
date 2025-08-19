@@ -19,14 +19,13 @@ html {
 }
 body {
     width: 100%;
-   /*background-color: lightgrey;*/
 }
 footer {
     margin: 0;
 }
 .nav-bar {
     display: flex;
-    background-color: grey;
+    /*background-color: grey;*/
 }
 
 
@@ -38,7 +37,7 @@ footer {
 @media (min-width: 600px) and (max-width: 899px) {
     body {
         font-size: 1.125rem;
-        padding: 1rem;
+        padding: 0;
     }
 }
 
