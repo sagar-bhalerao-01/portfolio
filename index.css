@@ -37,7 +37,7 @@ footer {
 @media (min-width: 600px) and (max-width: 899px) {
     body {
         font-size: 1.125rem;
-        padding: 0;
+        padding: 1rem;
     }
 }
 
