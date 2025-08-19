@@ -59,12 +59,32 @@ body {
 .hero-home {
     margin: 1rem;
     padding: 1rem;
+    height: auto;
+    width: auto;
     border-radius: 8px;
     border: 2px solid #15154f;
     color: white;
     box-shadow: 0 0 15px 2px #15154f;
     backdrop-filter:blur(50px);
     -webkit-backdrop-filter:blur(50px);
+}
+.hero-home h1 {
+    margin: 0.6rem;
+    padding: 0.6rem;
+}
+.hero-home p {
+    margin: 0.6rem;
+    padding: 0.6rem;
+}
+.hero-home .cta{
+    margin: 0.6rem;
+    padding: 0.6rem;
+    background-color: #2da44e;
+    color:#fff;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 
