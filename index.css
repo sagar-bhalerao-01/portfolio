@@ -25,9 +25,6 @@ html {
 body {
     margin: 0;
 }
-footer {
-    margin: 0;
-}
 .nav-bar {
     /*margin: 1rem;*/
     display: flex;
@@ -37,12 +34,14 @@ footer {
     background-color: grey;
 }
 .nav-bar .logo {
-    margin: 0;
-    padding: 0;
+    background-color: ver(--logo-color);
+    margin: 0.5rem;
+    padding: 0.5rem;
 }
-.nav-bar .logo .img{
+.nav-bar .logo img{
     height: 2.5rem;
-    width: 2.5rem;
+    width: auto;
+    border-radius: 0.6rem;
 }
 .nav-bar .btn {
     margin: 0;
