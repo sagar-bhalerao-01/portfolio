@@ -4,8 +4,8 @@
     --btn-color : #2da44e;
 }
 html, body {
-    height: 100vh;
-    width:100vw;
+    height: 100%;
+    width:100%;
     margin:0;
 }
 html {
@@ -15,7 +15,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 1rem;
+    /*margin: 1rem;*/
     background: radial-gradient(circle, white 0%, #a0cfff 20%, #3399ff 40%, #0055aa 60%, #001f4d 80%, #15154f 100%);
     box-shadow: 0 0 2rem 1rem white;
     background-repeat: no-repeat;
@@ -29,11 +29,26 @@ footer {
     margin: 0;
 }
 .nav-bar {
-    margin:0;
+    /*margin: 1rem;*/
     display: flex;
     justify-content: space-between;
-    padding: 1rem 2rem;
+    align-items: center;
+    width: 100%;
     background-color: grey;
+}
+.nav-bar .logo {
+    margin: 0;
+    padding: 0;
+}
+.nav-bar .logo .img{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.nav-bar .btn {
+    margin: 0;
+}
+.nav-bar .btn a {
+    margin: 0;
 }
 
 
