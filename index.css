@@ -16,6 +16,8 @@ html {
     justify-content: center;
     align-items: center;
     margin: 1rem;
+    background: radial-gradient(circle, white 0%, #a0cfff 20%, #3399ff 50%, #0055aa 80%, #001f4d 100%);
+    box-shadow: 0 0 2rem 1rem white;
 }
 body {
     width: 100%;
