@@ -3,3 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+    --primary-color: #000;
+    --secondary-color: #fff;
+    --ftc-color: #555;
+    --primary-logo: blue;
+    --primary-text: green;
+    --primary-font: Arial, Helvetica, sans-serif;
+    --primary-size: 1rem;
+}
+html, body {
+    font-family: ver(--primary-font);
+    font-family: ver(--primary-font);
+    font-size: ver(--primary-size);
+    background-color: ver(--primary-color);
+}
+body {
+    margin: ver(--primary-size);
+    padding: ver(--primary-size);
+}
+
+
+
+
+
+
+footer {
+    background-color: ver(--ftc-color);
+}
