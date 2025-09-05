@@ -6,8 +6,10 @@
     --primary-logo: rgb(0, 0, 156);
     --primary-text: rgb(50, 170, 80);
     --primary-font: Arial, Helvetica, sans-serif;
-    --primary-size: 1rem;
-    --secondary-size: 0.5rem;
+    --primary-size: 3rem;
+    --secondary-size: 2rem;
+    --third-size: 1.5rem;
+    --text-size: 1rem;
     --primary-border: 1px solid black;
     --secondary-border: 1px solid rgb(0, 0, 156);
     --third-border: 2px solid rgb(50, 170, 80);
@@ -76,10 +78,16 @@ a {
     justify-content: right;
     width: 100vw;
     height: 100vh;
+    border-radius: 5px;
     margin: var(--primary-size);
     padding: var(--primary-size);
 }
-
+.hero-header {
+    font-size: var(--primary-size);
+}
+.hero-container p {
+    font-size: var(--third-size);
+}
 
 
 
