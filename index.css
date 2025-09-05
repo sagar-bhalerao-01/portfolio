@@ -10,7 +10,7 @@
     --secondary-size: 0.5rem;
     --primary-border: 1px solid black;
     --secondary-border: 1px solid blue;
-    --third-border: 1px solid green;
+    --third-border: 2px solid green;
     --primary-radius: 1rem;
 }
 * {
@@ -33,7 +33,8 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-direction: center;
-    
+    position: sticky;
+    top: 0;
     margin: var(--primary-size)+2;
     padding: var(--primary-size)+2;
 }
