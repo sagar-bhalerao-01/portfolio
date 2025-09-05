@@ -2,15 +2,15 @@
 :root {
     --primary-color: #000;
     --secondary-color: #fff;
-    --ftc-color: #333;
+    --ftc-color: #555;
     --primary-logo: rgb(0, 0, 156);
-    --primary-text: green;
+    --primary-text: rgb(50, 170, 80);
     --primary-font: Arial, Helvetica, sans-serif;
     --primary-size: 1rem;
     --secondary-size: 0.5rem;
     --primary-border: 1px solid black;
-    --secondary-border: 1px solid blue;
-    --third-border: 2px solid green;
+    --secondary-border: 1px solid rgb(0, 0, 156);
+    --third-border: 2px solid rgb(50, 170, 80);
     --primary-radius: 1rem;
 }
 * {
