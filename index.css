@@ -7,6 +7,10 @@
     --primary-text: green;
     --primary-font: Arial, Helvetica, sans-serif;
     --primary-size: 1rem;
+    --secondary-size: 0.5rem;
+    --primary-border: 1px solid black;
+    --secondary-border: 1px solid blue;
+    --primary-radius: 1rem;
 }
 * {
     margin: 0;
@@ -27,6 +31,35 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: center;
+    margin: var(--primary-size)+2;
+    padding: var(--primary-size)+2;
+}
+.logo {
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 70px;
+    background: var(--secondary-color);
+    border: var(--secondary-border);
+    color: var(--primary-logo);
+    font-style: italic;
+    margin: var(--primary-size);
+    padding: var(--primary-size);
+}
+a {
+    text-decoration: none;
+}
+.logo a:visited {
+    color: var(--primary-logo);
+}
+.cta a:visited {
+    color: var(--secondary-color);
+}
+.cta {
+    background: var(--primary-text);
+    color: var(--secondary-color);
+    border-radius: 5px;
+    font-weight: bold;
     margin: var(--primary-size);
     padding: var(--primary-size);
 }
