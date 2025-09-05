@@ -14,14 +14,14 @@
     box-sizing: border-box;
 }
 html, body {
-    font-family: ver(--primary-font);
-    font-family: ver(--primary-font);
-    font-size: ver(--primary-size);
-    background-color: ver(--primary-color);
+    font-family: var(--primary-font);
+    font-family: var(--primary-font);
+    font-size: var(--primary-size);
+    background-color: var(--primary-color);
 }
 body {
-    margin: ver(--primary-size);
-    padding: ver(--primary-size);
+    margin: var(--primary-size);
+    padding: var(--primary-size);
 }
 
 
@@ -30,5 +30,5 @@ body {
 
 
 footer {
-    background-color: ver(--ftc-color);
+    background-color: var(--ftc-color);
 }
