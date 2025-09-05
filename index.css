@@ -1,8 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 :root {
     --primary-color: #000;
     --secondary-color: #fff;
@@ -11,6 +7,11 @@
     --primary-text: green;
     --primary-font: Arial, Helvetica, sans-serif;
     --primary-size: 1rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 html, body {
     font-family: ver(--primary-font);
