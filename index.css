@@ -15,7 +15,7 @@
 }
 html, body {
     font-family: var(--primary-font);
-    color: var(--primary-font);
+    color: var(--secondary-color);
     font-size: var(--primary-size);
     background-color: var(--primary-color);
 }
