@@ -70,6 +70,15 @@ a {
 .cta a {
     color: var(--secondary-color);
 }
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    width: 100vw;
+    height: 100vh;
+    margin: var(--primary-size);
+    padding: var(--primary-size);
+}
 
 
 
