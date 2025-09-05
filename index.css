@@ -7,9 +7,9 @@
     --primary-text: rgb(50, 170, 80);
     --primary-font: Arial, Helvetica, sans-serif;
     --primary-size: 1rem;
-    --secondary-size: 1rem;
+    --secondary-size: 3rem;
     --third-size: 1.5rem;
-    --text-size: 1rem;
+    --forth-size: 2rem;
     --primary-border: 1px solid black;
     --secondary-border: 1px solid rgb(0, 0, 156);
     --third-border: 2px solid rgb(50, 170, 80);
@@ -83,7 +83,7 @@ a {
     padding: var(--primary-size);
 }
 .hero-header {
-    font-size: var(--primary-size);
+    font-size: var(--secondary-size);
 }
 .hero-container p {
     font-size: var(--third-size);
