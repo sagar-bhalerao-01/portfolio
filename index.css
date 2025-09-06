@@ -109,8 +109,10 @@ a {
 .hero-p1 {
     font-size: var(--primary-size);
     transform: translateY(-2rem);
+    transform: translateX(-2rem);
     z-index: 800;
-    text-align: right;
+    /*text-align: right;*/
+    color: red;
     margin: var(--fifth-size);
     padding: var(--fifth-size);
 }
