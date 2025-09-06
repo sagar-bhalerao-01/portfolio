@@ -119,7 +119,7 @@ a {
 .hero-header.hero-p1 {
     display: flex;
     justify-content: center;
-    align-items: right;
+    align-items: center;
     text-align: right;
 }
 .container {
