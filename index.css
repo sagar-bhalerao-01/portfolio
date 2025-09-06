@@ -33,12 +33,12 @@ html, body {
     color: var(--secondary-color);
     font-size: var(--primary-size);
     background-color: var(--primary-color);
-    /*margin: var(--primary-size);
-    padding: var(--primary-size);*/
+    height: 100%;
+    width: 100%;
 }/*
 body {
-    margin: var(--primary-size);
-    padding: var(--primary-size);
+    margin: 0;
+    padding: 0;
 }*/
 .nav-bar {
     display: flex;
@@ -47,9 +47,10 @@ body {
     flex-direction: center;
     position: sticky;
     top: 0;
-    width: 80vw;
-    /*margin: var(--primary-size);
-    padding: var(--primary-size);*/
+    width: 100vw;
+    background-color: var(--primary-color);
+    margin: var(--primary-size);
+    padding: var(--fifth-size);
 }
 .logo {
     font-size: 25px;
@@ -87,12 +88,13 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: right;
-    width: 100vw;
-    height: 100vh;
+    align-items: center;
+    /*width: 100vw;
+    height: 100vh;*/
     border: var(--forth-border);
     border-radius: 10px;
-    margin: var(--primary-size);
-    padding: var(--forth-size);
+    /*margin: var(--primary-size);
+    padding: var(--forth-size);*/
 }
 .hero-header {
     font-size: var(--forth-size);
@@ -100,6 +102,13 @@ a {
 .hero-container p {
     font-size: var(--primary-size);
 }
+.container {
+    margin: var(--primary-size);
+    padding: var(--primary-size);
+    border: var(--forth-border);
+    border-radius: 5px;
+}
+
 
 
 
