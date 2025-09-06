@@ -32,8 +32,8 @@ html, body {
     color: var(--secondary-color);
     font-size: var(--primary-size);
     background-color: var(--primary-color);
-    margin: var(--primary-size);
-    padding: var(--primary-size);
+    /*margin: var(--primary-size);
+    padding: var(--primary-size);*/
 }
 body {
     margin: var(--primary-size);
@@ -46,7 +46,7 @@ body {
     flex-direction: center;
     position: sticky;
     top: 0;
-    width: 100vw;
+    width: 80vw;
     margin: var(--primary-size);
     padding: var(--primary-size);
 }
