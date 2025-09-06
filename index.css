@@ -110,6 +110,7 @@ a {
     font-size: var(--primary-size);
     transform: translateY(-2rem);
     z-index: 800;
+    text-align: right;
     margin: var(--fifth-size);
     padding: var(--fifth-size);
 }
