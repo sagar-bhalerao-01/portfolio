@@ -98,7 +98,7 @@ a {
     border-radius: 10px;
     height: 65vh;
     margin: var(--primary-size);
-    margin-bottom: var(--primary-size);
+    margin-bottom: var(--forth-size);
     padding: var(--primary-size);
 }
 .hero-header {
@@ -125,13 +125,37 @@ a {
     margin: var(--primary-size);
     padding: var(--primary-size);
     border: var(--forth-border);
-    border-radius: 5px;
 }
 p {
     font-size: var(--primary-size);
 }
+.portfolio {
 
+}
+.card-grid {
 
+}
+.card {
+
+}
+.solutions {
+
+}
+.banner-grid {
+
+}
+.banner {
+
+}
+.pricing {
+
+}
+ul {
+
+}
+li {
+    
+}
 
 
 
