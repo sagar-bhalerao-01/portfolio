@@ -78,6 +78,7 @@ a {
     border-radius: 5px;
     border: var(--secondary-border);
     font-weight: bold;
+    width: 110px;
     max-width: 100%;
     margin: var(--primary-size);
     padding: var(--primary-size);
@@ -106,15 +107,20 @@ a {
 }
 .hero-p1 {
     font-size: var(--primary-size);
-    transform: translateY(-30px);
+    transform: translateY(-2rem);
     margin: var(--fifth-size);
     padding: var(--fifth-size);
 }
 .hero-p2 {
     font-size: var(--primary-size);
-    text-indent: var(--forth-size);
     margin: var(--fifth-size);
     padding: var(--fifth-size);
+}
+.hero-header.hero-p1 {
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    text-align: right;
 }
 .container {
     margin: var(--primary-size);
