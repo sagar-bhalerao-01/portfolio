@@ -50,18 +50,18 @@ body {
     width: 100vw;
     background-color: var(--primary-color);
     margin: var(--primary-size);
-    padding: var(--fifth-size);
+    padding: var(--forth-size);
 }
 .logo {
     font-size: 25px;
     font-weight: 700;
     border-radius: 70px;
-    background: var(--secondary-color);
-    border: var(--third-border);
-    color: var(--primary-logo);
+    background: #fff;
+    border: 2px solid rgb(60, 170, 80);
+    color: rgb(0, 0, 156);
     font-style: italic;
-    margin: var(--primary-size);
-    padding: var(--primary-size);
+    margin: 16px;
+    padding: 16px;
 }
 a {
     text-decoration: none;
@@ -80,6 +80,7 @@ a {
     font-weight: bold;
     margin: var(--primary-size);
     padding: var(--primary-size);
+    cursor: pointer;
 }
 .cta a {
     color: var(--secondary-color);
@@ -88,13 +89,11 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: right;
-    align-items: center;
-    /*width: 100vw;
-    height: 100vh;*/
+    align-items: right;
     border: var(--forth-border);
     border-radius: 10px;
-    /*margin: var(--primary-size);
-    padding: var(--forth-size);*/
+    margin: var(--primary-size);
+    padding: var(--primary-size);
 }
 .hero-header {
     font-size: var(--forth-size);
@@ -107,6 +106,9 @@ a {
     padding: var(--primary-size);
     border: var(--forth-border);
     border-radius: 5px;
+}
+p {
+    font-size: var(--primary-size);
 }
 
 
