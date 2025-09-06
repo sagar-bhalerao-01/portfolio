@@ -78,7 +78,6 @@ a {
     border-radius: 5px;
     border: var(--secondary-border);
     font-weight: bold;
-    width: 100px;
     max-width: 100%;
     margin: var(--primary-size);
     padding: var(--primary-size);
