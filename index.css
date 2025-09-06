@@ -78,7 +78,7 @@ a {
     border-radius: 5px;
     border: var(--secondary-border);
     font-weight: bold;
-    width: 200px;
+    width: 100px;
     max-width: 100%;
     margin: var(--primary-size);
     padding: var(--primary-size);
@@ -96,10 +96,12 @@ a {
     border-radius: 10px;
     height: 65vh;
     margin: var(--primary-size);
+    margin-bottom: var(--primary-size);
     padding: var(--primary-size);
 }
 .hero-header {
     font-size: var(--forth-size);
+    color: var(--primary-text);
     margin: var(--fifth-size);
     padding: var(--fifth-size);
 }
@@ -111,6 +113,7 @@ a {
 }
 .hero-p2 {
     font-size: var(--primary-size);
+    text-indent: var(--forth-size);
     margin: var(--fifth-size);
     padding: var(--fifth-size);
 }
