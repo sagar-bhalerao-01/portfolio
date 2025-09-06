@@ -77,6 +77,7 @@ a {
     background: var(--primary-text);
     color: var(--secondary-color);
     border-radius: 5px;
+    text-align: center;
     border: var(--secondary-border);
     font-weight: bold;
     width: 110px;
@@ -102,14 +103,16 @@ a {
 }
 .hero-header {
     font-size: var(--forth-size);
+    text-align: center;
     color: var(--primary-text);
     margin: var(--fifth-size);
     padding: var(--fifth-size);
 }
 .hero-p1 {
     font-size: var(--primary-size);
+    transform: translateY(-1.5rem);
     z-index: 800;
-    color: red;
+    font-weight: bold;
     margin: var(--fifth-size);
     padding: var(--fifth-size);
 }
@@ -126,9 +129,6 @@ a {
 }
 p {
     font-size: var(--primary-size);
-}
-.hero-sub {
-    align-items: center;
 }
 
 
