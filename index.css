@@ -10,9 +10,10 @@
     --secondary-size: 3rem;
     --third-size: 1.5rem;
     --forth-size: 2rem;
-    --primary-border: 1px solid black;
+    --primary-border: 1px solid #000;
     --secondary-border: 1px solid rgb(0, 0, 156);
     --third-border: 2px solid rgb(50, 170, 80);
+    --forth-border: 1px solid #fff;
     --primary-radius: 1rem;
 }
 * {
@@ -20,11 +21,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 html, body {
     font-family: var(--primary-font);
     color: var(--secondary-color);
     font-size: var(--primary-size);
     background-color: var(--primary-color);
+    margin: var(--primary-size);
+    padding: var(--primary-size);
 }
 body {
     margin: var(--primary-size);
@@ -32,13 +41,14 @@ body {
 }
 .nav-bar {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     flex-direction: center;
     position: sticky;
     top: 0;
-    margin: var(--primary-size)+2;
-    padding: var(--primary-size)+2;
+    width: 100vw;
+    margin: var(--primary-size);
+    padding: var(--primary-size);
 }
 .logo {
     font-size: 25px;
@@ -78,15 +88,16 @@ a {
     justify-content: right;
     width: 100vw;
     height: 100vh;
-    border-radius: 5px;
+    border: var(--forth-border);
+    border-radius: 10px;
     margin: var(--primary-size);
-    padding: var(--primary-size);
+    padding: var(--forth-size);
 }
 .hero-header {
-    font-size: var(--secondary-size);
+    font-size: var(--forth-size);
 }
 .hero-container p {
-    font-size: var(--third-size);
+    font-size: var(--primary-size);
 }
 
 
