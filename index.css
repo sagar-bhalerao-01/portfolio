@@ -130,31 +130,31 @@ p {
     font-size: var(--primary-size);
 }
 .portfolio {
-
+    border-radius: 0;
 }
 .card-grid {
-
+    border-radius: 0;
 }
 .card {
-
+    border-radius: 0;
 }
 .solutions {
-
+    border-radius: 0;
 }
 .banner-grid {
-
+    border-radius: 0;
 }
 .banner {
-
+    border-radius: 0;
 }
 .pricing {
-
+    border-radius: 0;
 }
 ul {
-
+    border-radius: 0;
 }
 li {
-    
+    border-radius: 0;
 }
 
 
