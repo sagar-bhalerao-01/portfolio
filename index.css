@@ -28,7 +28,7 @@ html {
     justify-content: center;
     align-items: center;
 }
-html, body {
+html body {
     font-family: var(--primary-font);
     color: var(--secondary-color);
     font-size: var(--primary-size);
@@ -48,6 +48,7 @@ body {
     position: sticky;
     top: 0;
     width: 100vw;
+    z-index: 1000;
     background-color: var(--primary-color);
     margin: var(--primary-size);
     padding: var(--forth-size);
@@ -91,7 +92,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: right;
+    align-items: center;
     border: var(--forth-border);
     border-radius: 10px;
     height: 65vh;
@@ -115,12 +116,6 @@ a {
     font-size: var(--primary-size);
     margin: var(--fifth-size);
     padding: var(--fifth-size);
-}
-.hero-header.hero-p1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: right;
 }
 .container {
     margin: var(--primary-size);
