@@ -90,7 +90,7 @@ a {
 .hero-container {
     display: flex;
     flex-direction: column;
-    justify-content: right;
+    justify-content: center;
     align-items: right;
     border: var(--forth-border);
     border-radius: 10px;
@@ -102,8 +102,6 @@ a {
     font-size: var(--forth-size);
     margin: var(--fifth-size);
     padding: var(--fifth-size);
-    justify-content: center;
-    align-items: center;
 }
 .hero-p1 {
     font-size: var(--primary-size);
