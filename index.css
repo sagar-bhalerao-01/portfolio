@@ -94,24 +94,27 @@ a {
     align-items: right;
     border: var(--forth-border);
     border-radius: 10px;
+    height: 65vh;
     margin: var(--primary-size);
     padding: var(--primary-size);
 }
 .hero-header {
     font-size: var(--forth-size);
-    margin: var(--primary-size);
-    padding: var(--primary-size);
+    margin: var(--fifth-size);
+    padding: var(--fifth-size);
+    justify-content: center;
+    align-items: center;
 }
 .hero-p1 {
     font-size: var(--primary-size);
-    transform: translateY(10px);
-    margin: var(--primary-size);
-    padding: var(--primary-size);
+    transform: translateY(-30px);
+    margin: var(--fifth-size);
+    padding: var(--fifth-size);
 }
 .hero-p2 {
     font-size: var(--primary-size);
-    margin: var(--primary-size);
-    padding: var(--primary-size);
+    margin: var(--fifth-size);
+    padding: var(--fifth-size);
 }
 .container {
     margin: var(--primary-size);
