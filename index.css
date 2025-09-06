@@ -35,11 +35,11 @@ html, body {
     background-color: var(--primary-color);
     height: 100%;
     width: 100%;
-}
+}/*
 body {
     margin: 0;
     padding: 0;
-}
+}*/
 .nav-bar {
     display: flex;
     justify-content:space-between;
@@ -99,9 +99,19 @@ a {
 }
 .hero-header {
     font-size: var(--forth-size);
+    margin: var(--primary-size);
+    padding: var(--primary-size);
 }
-.hero-container p {
+.hero-p1 {
     font-size: var(--primary-size);
+    transform: translateY(10px);
+    margin: var(--primary-size);
+    padding: var(--primary-size);
+}
+.hero-p2 {
+    font-size: var(--primary-size);
+    margin: var(--primary-size);
+    padding: var(--primary-size);
 }
 .container {
     margin: var(--primary-size);
