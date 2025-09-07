@@ -56,7 +56,8 @@ body {
 .logo {
     font-size: 25px;
     font-weight: 700;
-    border-radius: 70px;
+    /*border-radius: 70px;*/
+    border-radius: 60px 5px 60px 5px;
     background: #fff;
     border: 2px solid rgb(60, 170, 80);
     color: rgb(0, 0, 156);
@@ -124,7 +125,7 @@ a {
 .container {
     margin: var(--primary-size);
     padding: var(--primary-size);
-    border: var(--forth-border);
+    /*border: var(--forth-border);*/
 }
 p {
     font-size: var(--primary-size);
