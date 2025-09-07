@@ -190,5 +190,23 @@ footer {
     padding: var(--primary-size);
 }
 .footer-nav {
+    display: flex;
     justify-content: space-between;
+    flex-direction: center;
+    align-items: center;
+}
+.footer-ul {
+    display: flex;
+    list-style-type: none;
+}
+.footer-ul a {
+    padding: var(--primary-size);
+}
+.footer-info {
+    color: var(--secondary-color);
+    text-align: center;
+    padding: var(--fifth-size);
+}
+.footer-ul a:visited {
+    color: var(--secondary-color);
 }
