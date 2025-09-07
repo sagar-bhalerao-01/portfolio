@@ -206,10 +206,13 @@ footer {
     text-align: center;
     padding: var(--fifth-size);
 }
+.footer-ul a {
+    color: var(--secondary-color);
+}
 .footer-ul a:visited {
     color: var(--secondary-color);
 }
-
+/*
 @media (orientation: portrait) {
     .nav-bar {
         justify-content: center;
@@ -219,8 +222,28 @@ footer {
     }
 }
 
-@media only screen and (max-width: 1024px) and (min-width: 768px) and (orientation: landscape) {
-   .nav-bar .cta {
-    display: none;
+@media (max-width: 1920px){
+   .nav-bar {
+    margin-left: 1rem;
    }
-}
+   .nav-bar .cta {
+    margin-right: 3rem;
+   }
+   .hero-container {
+    height: 70vh;
+    margin: var(--fifth-size);
+    padding: var(--fifth-size);
+   }
+   .hero-header {
+    margin: var(--fifth-size);
+    padding: var(--fifth-size);
+   }
+   .hero-p1 {
+    margin: var(--fifth-size);
+    padding: var(--fifth-size);
+   }
+   .hero-p2 {
+    margin: var(--fifth-size);
+    padding: var(--fifth-size);
+   }
+}*/
