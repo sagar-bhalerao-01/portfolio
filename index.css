@@ -212,7 +212,7 @@ footer {
 .footer-ul a:visited {
     color: var(--secondary-color);
 }
-/*
+
 @media (orientation: portrait) {
     .nav-bar {
         justify-content: center;
@@ -223,27 +223,20 @@ footer {
 }
 
 @media (max-width: 1920px){
-   .nav-bar {
-    margin-left: 1rem;
-   }
-   .nav-bar .cta {
-    margin-right: 3rem;
-   }
    .hero-container {
-    height: 70vh;
     margin: var(--fifth-size);
     padding: var(--fifth-size);
    }
    .hero-header {
     margin: var(--fifth-size);
-    padding: var(--fifth-size);
+    /*padding: var(--fifth-size);*/
    }
    .hero-p1 {
     margin: var(--fifth-size);
-    padding: var(--fifth-size);
+    /*padding: var(--fifth-size);*/
    }
    .hero-p2 {
     margin: var(--fifth-size);
-    padding: var(--fifth-size);
+    /*padding: var(--fifth-size);*/
    }
-}*/
+}
