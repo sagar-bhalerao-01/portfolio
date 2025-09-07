@@ -50,14 +50,12 @@ body {
     width: 100vw;
     z-index: 1000;
     background-color: var(--primary-color);
-    margin: var(--primary-size);
-    padding: var(--forth-size);
 }
 .logo {
     font-size: 25px;
     font-weight: 700;
-    /*border-radius: 70px;*/
-    border-radius: 60px 5px 60px 5px;
+    border-radius: 70px;
+    /*border-radius: 60px 5px 60px 5px;*/
     background: #fff;
     border: 2px solid rgb(60, 170, 80);
     color: rgb(0, 0, 156);
@@ -97,7 +95,7 @@ a {
     align-items: flex-start;
     border: var(--forth-border);
     border-radius: 10px;
-    height: 65vh;
+    height: 75vh;
     margin: var(--primary-size);
     margin-bottom: var(--secondary-size);
     padding: var(--primary-size);
@@ -121,6 +119,7 @@ a {
 .hero-p2 {
     font-size: var(--primary-size);
     margin: var(--fifth-size);
+    margin-bottom: var(--forth-size);
     padding: var(--fifth-size);
 }
 .container {
@@ -209,4 +208,19 @@ footer {
 }
 .footer-ul a:visited {
     color: var(--secondary-color);
+}
+
+@media (orientation: portrait) {
+    .nav-bar {
+        justify-content: center;
+    }
+    .nav-bar .cta {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) and (orientation: landscape) {
+   .nav-bar .cta {
+    display: none;
+   }
 }
