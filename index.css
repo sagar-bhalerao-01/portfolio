@@ -52,7 +52,7 @@ body {
     background-color: var(--primary-color);
 }
 .logo {
-    /*font-size: 25px;*/
+    font-size: 24px;
     font-weight: 700;
     border-radius: 70px;
     /*border-radius: 60px 5px 60px 5px;*/
@@ -217,9 +217,6 @@ footer {
     .nav-bar {
         justify-content: center;
     }
-    .nav-bar .cta {
-        display: none;
-    }
 }
 
 @media (max-width: 1600px) and (orientation: landscape) {
@@ -228,24 +225,24 @@ footer {
     }*/
    .hero-container {
     margin: 1rem auto;
-    padding: 2rem auto;
-    align-items: center;
+    padding: 3rem auto;
+    align-items: right;
    }
    .hero-header {
     /*font-size: var(--forth-size);*/
-    margin: 0.5rem;
-    margin-top: 0.5rem;
+    margin: 0;
+    margin-bottom: 0;
    }
    .hero-p1 {
     /*font-size: var(--primary-size);*/
-    margin: 0.5rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
    }
    .hero-p2 {
     /*font-size: var(--primary-size);*/
-    margin: 0.5rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
    }
 }
