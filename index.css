@@ -214,35 +214,55 @@ footer {
 }
 
 @media (min-width: 720px) and (orientation: portrait) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html body {
+        height: 100%;
+        width: 100%;
+    }
     .nav-bar {
         justify-content: center;
     }
 }
 
 @media (max-width: 1600px) and (orientation: landscape) {
-    /*html body {
-        font-size: var(--primary-size);
-    }*/
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html body {
+        height: 100%;
+        width: 100%;
+    }
    .hero-container {
-    margin: 1rem auto;
-    padding: 3rem auto;
+    margin: var(--fifth-size);
+    padding: var(--primary-size);
     align-items: right;
+    height: 75vh;
    }
    .hero-header {
-    /*font-size: var(--forth-size);*/
+    font-size: var(--forth-size);
+    transform: translateY(0.5rem);
     margin: 0;
-    margin-bottom: 0;
+    padding: var(--fifth-size);
    }
    .hero-p1 {
-    /*font-size: var(--primary-size);*/
+    font-size: var(--primary-size);
+    transform: translateY(-0.5rem);
     margin: 0;
-    margin-top: 0;
-    margin-bottom: 0;
+    padding: var(--fifth-size);
    }
    .hero-p2 {
-    /*font-size: var(--primary-size);*/
-    margin: 0;
+    font-size: var(--primary-size);
     margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
+    padding: var(--fifth-size);
+   }
+   .cta {
+    margin-left: var(--fifth-size);
    }
 }
