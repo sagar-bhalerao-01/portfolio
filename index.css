@@ -223,9 +223,6 @@ footer {
         height: 100%;
         width: 100%;
     }
-    .nav-bar {
-        justify-content: center;
-    }
     p {
         font-weight: normal;
     }
@@ -246,7 +243,6 @@ footer {
     padding: var(--primary-size);
     align-items: right;
     height: 75vh;
-    max-width: 90vw;
    }
    .hero-header {
     font-size: var(--forth-size);
@@ -274,10 +270,15 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 1fr;
     gap: 1rem;
-    max-width: 90vw;
     align-items: center;
    }
-   .footer {
-    max-width: 90vw;
+   .card {
+    height: 100%;
+   }
+   ul {
+    margin: 1rem;
+   }
+   .footer-info {
+    margin-top: 1rem;
    }
 }
