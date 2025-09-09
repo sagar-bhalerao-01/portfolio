@@ -60,6 +60,7 @@ body {
     border: 2px solid rgb(60, 170, 80);
     color: rgb(0, 0, 156);
     font-style: italic;
+    font-family: cursive;
     margin: 16px;
     padding: 16px;
 }
@@ -92,13 +93,25 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    /*align-items: flex-start;*/
+    align-items: center;
     border: var(--forth-border);
     border-radius: 10px;
     height: 75vh;
+    position: relative;
     margin: var(--primary-size);
     margin-bottom: var(--secondary-size);
     padding: var(--primary-size);
+}
+.hero-info {
+    width:50%;
+    position: absolute;
+    background-color: red;
+}
+.hero-anime {
+    width:50%;
+    position: absolute;
+    background-color: green;
 }
 .hero-header {
     /*font-size: var(--forth-size);*/
@@ -240,6 +253,7 @@ footer {
     }
    .hero-container {
     margin: var(--fifth-size);
+    padding-top: 0%;
     padding: var(--primary-size);
     align-items: right;
     height: 75vh;
