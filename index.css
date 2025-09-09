@@ -84,6 +84,7 @@ a {
     max-width: 100%;
     margin: var(--primary-size);
     padding: var(--primary-size);
+    /*padding: var(--fifth-size);*/
     cursor: pointer;
 }
 .cta a {
@@ -99,26 +100,31 @@ a {
     border-radius: 10px;
     height: 75vh;
     position: relative;
+    overflow: hidden;
     margin: var(--primary-size);
     margin-bottom: var(--secondary-size);
     padding: var(--primary-size);
 }
 .hero-info {
-    width:50%;
     position: absolute;
     background-color: red;
 }
 .hero-anime {
-    width:50%;
+    width: 150px;
+    height: 100px;
     position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    border: 1px solid blue;
     background-color: green;
 }
 .hero-header {
     /*font-size: var(--forth-size);*/
     /*font-size: var(--forth-size);*/
     color: var(--primary-text);
-    margin: var(--fifth-size);
-    padding: var(--fifth-size);
+    /*margin: var(--fifth-size);
+    padding: var(--fifth-size);*/
 }
 .hero-p1 {
     /*font-size: var(--primary-size);*/
@@ -126,14 +132,15 @@ a {
     transform: translateY(-2rem);
     z-index: 800;
     font-weight: bold;
-    margin: var(--fifth-size);
-    padding: var(--fifth-size);
+    /*margin: var(--fifth-size);
+    padding: var(--fifth-size);*/
 }
 .hero-p2 {
     /*font-size: var(--primary-size);*/
-    margin: var(--fifth-size);
+    /*margin: var(--fifth-size);
     margin-bottom: var(--forth-size);
-    padding: var(--fifth-size);
+    padding: var(--fifth-size);*/
+    border-radius: 0;
 }
 .container {
     margin: var(--fifth-size);
