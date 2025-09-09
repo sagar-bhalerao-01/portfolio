@@ -110,37 +110,49 @@ a {
     background-color: red;
 }
 .hero-anime {
-    width: 100%;
-    height: 100%;;
-    top: 1.5rem;
-    /*left: 50%;*/
+    justify-content: center;
     align-items: center;
-    margin: 10px auto;
-    border: 1px solid blue;
-    background-color: green;
+    flex-direction: center;
+    margin: 0;
+    padding: 0;
+    height: 40%;
+    width: 100%;
+    border-radius: 10px;
+    border: var(--forth-border);
+}
+.anime {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.hero-info {
+    justify-content: right;
+    align-items: right;
+    height: 60%;
+    border-radius: 10px;
+    border: var(--forth-border);
 }
 .hero-header {
     /*font-size: var(--forth-size);*/
     /*font-size: var(--forth-size);*/
     color: var(--primary-text);
-    /*margin: var(--fifth-size);
-    padding: var(--fifth-size);*/
+    /*margin: var(--fifth-size);*/
+    padding: var(--fifth-size);
 }
 .hero-p1 {
     /*font-size: var(--primary-size);*/
     /*font-size: var(--primary-size);*/
-    transform: translateY(-2rem);
+    transform: translateY(-1rem);
     z-index: 800;
     font-weight: bold;
-    /*margin: var(--fifth-size);
-    padding: var(--fifth-size);*/
+    /*margin: var(--fifth-size);*/
+    padding: var(--fifth-size);
 }
 .hero-p2 {
     /*font-size: var(--primary-size);*/
-    /*margin: var(--fifth-size);
-    margin-bottom: var(--forth-size);
-    padding: var(--fifth-size);*/
-    border-radius: 0;
+    /*margin: var(--fifth-size);*/
+    margin-bottom: var(--primary-size);
+    padding: var(--fifth-size);
 }
 .container {
     margin: var(--fifth-size);
