@@ -104,9 +104,8 @@ a {
     padding: var(--primary-size);
 }
 .hero-info {
-    border-radius: 0;
-    /*position: absolute;*/
-    /*background-color: red;*/
+    align-items: center;
+    justify-content: center;
 }
 .hero-animation {
     justify-content: center;
@@ -389,4 +388,16 @@ footer {
    .footer-info {
     margin-top: 1rem;
    }
+}
+
+@keyframes anime {
+    0% {
+    background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
