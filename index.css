@@ -102,12 +102,9 @@ a {
     margin: var(--primary-size);
     margin-bottom: var(--secondary-size);
     padding: var(--primary-size);
-    backdrop-filter: blur(40px);
-    -webkit-backdrop-filter: blur(40px);
 }
 .hero-info {
-    backdrop-filter: blur(40px);
-    -webkit-backdrop-filter: blur(40px);
+    border-radius: 0;
     /*position: absolute;*/
     /*background-color: red;*/
 }
