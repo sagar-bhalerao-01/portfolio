@@ -37,8 +37,6 @@ html body {
 }
 body {
     background:linear-gradient(to bottom, black, darkblue, darkgrey);
-    /*background-size: 200% 200%;
-    animation: animate 10s infinite;*/
 }
 .nav-bar {
     display: flex;
@@ -321,7 +319,7 @@ footer {
     color: var(--secondary-color);
 }
 
-@media (min-width: 756px) and (orientation: landscape) {
+@media (min-width: 720px) and (orientation: landscape) {
     * {
         margin: 0;
         padding: 0;
@@ -336,18 +334,6 @@ footer {
     }
     .hero-container {
         height: 100vh;
-    }
-    .hero-header {
-        margin: 0.5rem;
-        padding: 0.5rem;
-    }
-    .hero-p1 {
-        margin: 0.5rem;
-        padding: 0.5rem;
-    }
-    .hero-p2 {
-        margin: 0.5rem;
-        padding: 0.5rem;
     }
 }
 
