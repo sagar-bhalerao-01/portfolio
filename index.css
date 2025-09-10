@@ -36,9 +36,9 @@ html body {
     width: 100%;
 }
 body {
-    background: radial-gradient(circle, #ff6b6b, #f5a623, #4caf50, #2196f3);
-    background-size: 200% 200%;
-    animation: spin 10s linear infinite;
+    background:linear-gradient(to bottom, black, darkblue, darkgrey);
+    /*background-size: 200% 200%;
+    animation: animate 10s infinite;*/
 }
 .nav-bar {
     display: flex;
@@ -104,10 +104,14 @@ a {
     margin: var(--primary-size);
     margin-bottom: var(--secondary-size);
     padding: var(--primary-size);
+    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(40px);
 }
 .hero-info {
+    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(40px);
     /*position: absolute;*/
-    background-color: red;
+    /*background-color: red;*/
 }
 .hero-animation {
     justify-content: center;
@@ -317,7 +321,7 @@ footer {
     color: var(--secondary-color);
 }
 
-@media (min-width: 720px) and (orientation: portrait) {
+@media (min-width: 756px) and (orientation: landscape) {
     * {
         margin: 0;
         padding: 0;
@@ -329,6 +333,21 @@ footer {
     }
     p {
         font-weight: normal;
+    }
+    .hero-container {
+        height: 100vh;
+    }
+    .hero-header {
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+    .hero-p1 {
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+    .hero-p2 {
+        margin: 0.5rem;
+        padding: 0.5rem;
     }
 }
 
@@ -347,7 +366,7 @@ footer {
     padding-top: 0%;
     padding: var(--primary-size);
     align-items: right;
-    height: 75vh;
+    height: 100vh;
    }
    .hero-header {
     font-size: var(--forth-size);
@@ -366,6 +385,7 @@ footer {
     margin-top: 0;
     margin: 0;
     padding: var(--fifth-size);
+    margin-bottom: 1rem;
    }
    .cta {
     margin-left: var(--fifth-size);
@@ -386,39 +406,4 @@ footer {
    .footer-info {
     margin-top: 1rem;
    }
-}
-
-@keyframes scroll{
-    0% {
-        transform: translateX(100%);
-    }
-    90% {
-        transform: translateX(-100%);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
-}
-@keyframes slate {
-    0% {
-        opacity: 0;
-        transform: scale(0.5);
-    }
-    50% {
-        opacity: 1;
-        transform: scale(1);
-    }
-    100% {
-        opacity: 0;
-        transform: scale(0.5);
-        color: #aaa;
-    }
-}
-@keyframes spin{
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
 }
