@@ -13,12 +13,13 @@
     --fifth-size: 0.5rem;
     --primary-border: 1px solid #000;
     --secondary-border: 1px solid rgb(0, 0, 156);
-    --third-border: 2px solid rgb(50, 170, 80);
+    --third-border: 2px solid rgba(50, 170, 80);
     --forth-border: 1px solid #fff;
-    --fifth-border: 3px solid rgba(255, 255, 255, 0.3);
+    --fifth-border: 3px solid hsl(0, 0%, 100%, 0.3);
     --primary-radius: 1rem;
-    --blur: 40px;
-    --glass: rgba(255, 255, 255, 0.2);
+    --blur: 2px;
+    --glass: hsl(0, 0%, 100%, 0.2);
+    --shadow: inset 0 0 8px 1px hsl(0, 0%, 100%, 0.3);
 }
 * {
     margin: 0;
@@ -100,8 +101,10 @@ a {
     border: var(--fifth-border);
     border-radius: 10px;
     height: 75vh;
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(60px);
+    background: var(--glass);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    box-shadow: var(--shadow);
     position: relative;
     overflow: visible;
     margin: var(--primary-size);
@@ -256,12 +259,13 @@ p {
 }
 .card {
     border-radius: var(--fifth-size);
-    border: var(--forth-border);
+    border: var(--fifth-border);
     margin-bottom: var(--fifth-size);
     margin: var(--fifth-size);
     padding: var(--fifth-size);
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(60px);
+    background: var(--glass);
+    backdrop-filter: blur(2px);
+    box-shadow: var(--shadow);
 }
 h2 {
     padding-bottom: var(--primary-size);
