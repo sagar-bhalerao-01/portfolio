@@ -15,7 +15,10 @@
     --secondary-border: 1px solid rgb(0, 0, 156);
     --third-border: 2px solid rgb(50, 170, 80);
     --forth-border: 1px solid #fff;
+    --fifth-border: 3px solid rgba(255, 255, 255, 0.3);
     --primary-radius: 1rem;
+    --blur: 40px;
+    --glass: rgba(255, 255, 255, 0.2);
 }
 * {
     margin: 0;
@@ -94,9 +97,11 @@ a {
     justify-content: center;
     /*align-items: flex-start;*/
     align-items: center;
-    border: var(--forth-border);
+    border: var(--fifth-border);
     border-radius: 10px;
     height: 75vh;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(60px);
     position: relative;
     overflow: visible;
     margin: var(--primary-size);
@@ -114,8 +119,9 @@ a {
     overflow: hidden;
     height: 40%;
     width: 100%;
+    background: black;
     border-radius: 10px;
-    border: var(--forth-border);
+    /*border: var(--forth-border);*/
 }/*
 .animation {
     display: grid;
@@ -201,7 +207,7 @@ a {
     align-items: right;
     height: 60%;
     border-radius: 10px;
-    border: var(--forth-border);
+    /*border: var(--forth-border);*/
 }
 .hero-header {
     /*font-size: var(--forth-size);*/
@@ -254,6 +260,8 @@ p {
     margin-bottom: var(--fifth-size);
     margin: var(--fifth-size);
     padding: var(--fifth-size);
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(60px);
 }
 h2 {
     padding-bottom: var(--primary-size);
@@ -315,7 +323,7 @@ footer {
     color: var(--secondary-color);
 }
 
-@media (min-width: 720px) and (orientation: landscape) {
+@media (min-width: 720px) and (orientation: portrait) {
     * {
         margin: 0;
         padding: 0;
