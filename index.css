@@ -42,7 +42,6 @@ html body {
 }
 body {
     background:linear-gradient(to bottom, black, darkblue, blue, darkgrey);
-    animation: anime 10s ease-in-out infinite;
 }
 .nav-bar {
     display: flex;
@@ -53,7 +52,9 @@ body {
     top: 0;
     width: 100vw;
     z-index: 1000;
-    background-color: var(--primary-color);
+    backdrop-filter: blur(90px);
+    -webkit-backdrop-filter: blur(90px);
+    background: var(--glass);
 }
 .logo {
     font-size: 24px;
@@ -104,8 +105,8 @@ a {
     border-radius: 10px;
     height: 75vh;
     background: var(--glass);
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
     box-shadow: var(--shadow);
     position: relative;
     overflow: visible;
@@ -195,7 +196,7 @@ a {
     white-space: nowrap;
     color: white;
     font-size: 5rem;
-    transform: translateX(-5px);
+    transform: translateX(-18px);
     word-spacing: 6rem;
     /*animation: scroll 16s linear infinite;*/
 }
@@ -266,7 +267,8 @@ p {
     margin: var(--fifth-size);
     padding: var(--fifth-size);
     background: var(--glass);
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
     box-shadow: var(--shadow);
 }
 h2 {
@@ -403,21 +405,21 @@ footer {
     margin-top: 1rem;
    }
 }
-
+/*
 @keyframes anime {
     0% {
-        background: linear-gradient(to left, hsl(352, 100%, 67%), hsl(36, 100%, 71%), hsl(9, 100%, 76%), hsl(343, 100%, 76%));
+        background: linear-gradient(to bottom, black, darkblue, blue, gray);
     }
     25% {
-        background: linear-gradient(to top, hsl(196, 100%, 50%), hsl(129, 97%, 78%), hsl(175, 72%, 65%), hsl(202, 88%, 61%));
+        background: linear-gradient(25deg, hsl(196, 100%, 50%), hsl(129, 97%, 78%), hsl(175, 72%, 65%), hsl(202, 88%, 61%));
     }
     50% {
-        background: linear-gradient(to right, hsl(260, 44%, 68%), hsl(317, 84%, 86%), hsl(15, 81%, 86%), hsl(290, 100% 90%));
+        background: linear-gradient(55deg, hsl(260, 44%, 68%), hsl(317, 84%, 86%), hsl(15, 81%, 86%), hsl(290, 100% 90%));
     }
     75% {
-        background: linear-gradient(to bottom, hsl(215, 39%, 14%), hsl(235, 40%, 24%), hsl(215, 30%, 33%), hsl(260, 14%, 38%));
+        background: linear-gradient(75deg, hsl(296, 80%, 80%), hsl(235, 70%, 74%), hsl(215, 80%, 55%), hsl(130, 44%, 78%));
     }
     100% {
-        background: linear-gradient(75deg, black, darkblue, blue, grey);
+        background: linear-gradient(95deg, hsl(352, 100%, 67%), hsl(129, 97%, 78%), hsl(175, 72%, 66%), hsl(202, 88%, 61%));
     }
-}
+}*/
