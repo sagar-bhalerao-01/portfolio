@@ -42,6 +42,7 @@ html body {
 }
 body {
     background:linear-gradient(to bottom, black, darkblue, blue, darkgrey);
+    animation: anime 10s ease-in-out infinite;
 }
 .nav-bar {
     display: flex;
@@ -405,12 +406,18 @@ footer {
 
 @keyframes anime {
     0% {
-    background-position: 0% 50%;
+        background: linear-gradient(to left, hsl(352, 100%, 67%), hsl(36, 100%, 71%), hsl(9, 100%, 76%), hsl(343, 100%, 76%));
+    }
+    25% {
+        background: linear-gradient(to top, hsl(196, 100%, 50%), hsl(129, 97%, 78%), hsl(175, 72%, 65%), hsl(202, 88%, 61%));
     }
     50% {
-        background-position: 100% 50%;
+        background: linear-gradient(to right, hsl(260, 44%, 68%), hsl(317, 84%, 86%), hsl(15, 81%, 86%), hsl(290, 100% 90%));
+    }
+    75% {
+        background: linear-gradient(to bottom, hsl(215, 39%, 14%), hsl(235, 40%, 24%), hsl(215, 30%, 33%), hsl(260, 14%, 38%));
     }
     100% {
-        background-position: 0% 50%;
+        background: linear-gradient(75deg, black, darkblue, blue, grey);
     }
 }
