@@ -269,10 +269,19 @@ p {
     margin-bottom: var(--fifth-size);
     margin: var(--fifth-size);
     padding: var(--fifth-size);
+    overflow: hidden;
     background: var(--glass);
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(3px);
     box-shadow: var(--shadow);
+}
+.card img {
+    height: 60%;
+    width: 100%;
+    border-radius: 5px;
+    padding: var(--fifth-size);
+    box-shadow: var(--shadow);
+    object-fit: cover;
 }
 h2 {
     padding-bottom: var(--primary-size);
