@@ -39,7 +39,7 @@ html body {
     width: 100%;
 }
 body {
-    background-image:linear-gradient(to bottom, black, darkblue, blue, darkgrey);
+    background:linear-gradient(to bottom, black, darkblue, blue, darkgrey);
 }
 .nav-bar {
     display: flex;
@@ -60,7 +60,6 @@ body {
     font-weight: 700;
     border-radius: 70px;
     text-align: center;
-    /*border-radius: 60px 5px 60px 5px;*/
     background: #fff;
     border: 2px solid rgb(60, 170, 80);
     color: rgb(0, 0, 156);
@@ -127,24 +126,7 @@ a {
     background: black;
     border-radius: 10px;
     box-shadow: var(--shadow);
-}/*
-.animation {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: repeat(4, auto);
-    gap: 0.5rem;
-    padding: 0.5rem;
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    background-color: green;
 }
-.bento {
-    text-align: center;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    min-width: 30px;
-}*/
 .word1 {
     display: inline-block;
     white-space: nowrap;
@@ -152,7 +134,6 @@ a {
     font-size: 2.5rem;
     transform: translateX(-5px) translateY(-5px);
     word-spacing: 4rem;
-    /*animation: scroll 17s linear infinite;*/
 }
 .word2 {
     display: inline-block;
@@ -161,7 +142,6 @@ a {
     transform: translateX(-5px);
     font-size: 1.5rem;
     word-spacing: 3.5rem;
-    /*animation: scroll 15s linear infinite;*/
 }
 .word3 {
     display: inline-block;
@@ -170,7 +150,6 @@ a {
     font-size: 2rem;
     word-spacing: 3rem;
     transform: translateX(-5px);
-    /*animation: scroll 10s linear infinite;*/
 }
 .word4 {
     display: inline-block;
@@ -179,7 +158,6 @@ a {
     font-size: 3rem;
     transform:translateX(-5px);
     word-spacing: 5rem;
-    /*animation: scroll 13s linear infinite;*/
 }
 .word5 {
     display: inline-block;
@@ -188,7 +166,6 @@ a {
     font-size: 2rem;
     transform: translateX(-5px);
     word-spacing: 1rem;
-    /*animation: scroll 10s linear infinite;*/
 }
 .word6 {
     display: inline-block;
@@ -197,7 +174,6 @@ a {
     font-size: 5rem;
     transform: translateX(-18px);
     word-spacing: 6rem;
-    /*animation: scroll 16s linear infinite;*/
 }
 .slate {
     text-align: center;
@@ -212,27 +188,18 @@ a {
     align-items: right;
     height: 60%;
     border-radius: 10px;
-    /*border: var(--forth-border);*/
 }
 .hero-header {
-    /*font-size: var(--forth-size);*/
-    /*font-size: var(--forth-size);*/
     color: var(--primary-text);
-    /*margin: var(--fifth-size);*/
     padding: var(--fifth-size);
 }
 .hero-p1 {
-    /*font-size: var(--primary-size);*/
-    /*font-size: var(--primary-size);*/
     transform: translateY(-1rem);
     z-index: 800;
     font-weight: bold;
-    /*margin: var(--fifth-size);*/
     padding: var(--fifth-size);
 }
 .hero-p2 {
-    /*font-size: var(--primary-size);*/
-    /*margin: var(--fifth-size);*/
     margin-bottom: var(--primary-size);
     padding: var(--fifth-size);
 }
@@ -243,7 +210,6 @@ a {
     margin-bottom: var(--forth-size);
 }
 .header {
-    /*font-size: var(--forth-size);*/
     margin-bottom: var(--primary-size);
     padding: var(--fifth-size);
 }
@@ -414,21 +380,3 @@ footer {
     margin-top: 1rem;
    }
 }
-/*
-@keyframes anime {
-    0% {
-        background: linear-gradient(to bottom, black, darkblue, blue, gray);
-    }
-    25% {
-        background: linear-gradient(25deg, hsl(196, 100%, 50%), hsl(129, 97%, 78%), hsl(175, 72%, 65%), hsl(202, 88%, 61%));
-    }
-    50% {
-        background: linear-gradient(55deg, hsl(260, 44%, 68%), hsl(317, 84%, 86%), hsl(15, 81%, 86%), hsl(290, 100% 90%));
-    }
-    75% {
-        background: linear-gradient(75deg, hsl(296, 80%, 80%), hsl(235, 70%, 74%), hsl(215, 80%, 55%), hsl(130, 44%, 78%));
-    }
-    100% {
-        background: linear-gradient(95deg, hsl(352, 100%, 67%), hsl(129, 97%, 78%), hsl(175, 72%, 66%), hsl(202, 88%, 61%));
-    }
-}*/
