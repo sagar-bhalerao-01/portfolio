@@ -35,12 +35,11 @@ html {
 html body {
     font-family: var(--primary-font);
     color: var(--secondary-color);
-    /*font-size: var(--primary-size);*/
     height: 100%;
     width: 100%;
 }
 body {
-    background:linear-gradient(to bottom, black, darkblue, blue, darkgrey);
+    background-image:linear-gradient(to bottom, black, darkblue, blue, darkgrey);
 }
 .nav-bar {
     display: flex;
@@ -54,6 +53,7 @@ body {
     backdrop-filter: blur(90px);
     -webkit-backdrop-filter: blur(90px);
     background: var(--glass);
+    box-shadow: var(--shadow);
 }
 .logo {
     font-size: 24px;
