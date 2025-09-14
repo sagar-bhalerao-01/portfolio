@@ -1,7 +1,6 @@
-
 :root {
-    --primary-color: #000;
     --secondary-color: #fff;
+    --primary-color: #000;
     --ftc-color: #555;
     --primary-logo: rgb(0, 0, 156);
     --primary-text: rgb(50, 170, 80);
@@ -90,7 +89,7 @@ a {
     max-width: 100%;
     margin: var(--primary-size);
     padding: var(--primary-size);
-    /*padding: var(--fifth-size);*/
+    outline-color: transparent;
     cursor: pointer;
 }
 .cta a {
