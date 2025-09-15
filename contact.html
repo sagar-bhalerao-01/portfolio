@@ -13,21 +13,22 @@
         <div class="logo"><a href="index.html">SagarBhalerao</a></div>
         <div class="cta"><a href="index.html">Home</a></div>
     </div>
-    <form class="card form" action="" method="post">
+    <div class="card form" action="" method="post">
         <h2>Book Appointment</h2>
-        <div class="form-input">
-            <lable class="name">Name</lable>
-            <input class="input-field" placeholder="Your name here" />
-            <lable class="name">Email ID</lable>
-            <input class="input-field" placeholder="Your E-mail ID here" />
-            <lable class="name">Short Description</lable>
-            <textarea class="text-field" rows="5" cols="40" placeholder="Short description of your query here"></textarea>
-        </div>
+        <form class="form-input">
+            <lable for="name" class="name">Name</lable>
+            <input type="text" id="name" class="input-field" placeholder="Your name here..." required />
+            <lable for="email" class="name">Email ID</lable>
+            <input type="email" id="email" class="input-field" placeholder="Your E-mail ID here..." required />
+            <lable for="description" class="name">Short Description</lable>
+            <textarea type="text" id="description" class="text-field" rows="5" cols="40" placeholder="Short description of your query here..." required></textarea>
+        <input type="checkbox" class="checkbox">*We do not track or share client's information any third party company. Once submited initial information via contact form, the provided form data will be deleted as soon as the contact is established with the developer. Clients can anytime request for data deletion via same contact form with deletion request mentioned in description field.</input>
         <div class="buttons">
             <button id="submit">Submit</button>
             <button id="close">Close</button>
         </div>
-    </form>
+        </form>
+    </div>
 </body>
 <footer class="footer">
     <div class="footer-container">
