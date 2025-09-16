@@ -14,22 +14,22 @@
     </div>
     <div class="form-container" action="" method="post" onsubmit="return validateForm()">
         <h2>Book Appointment</h2>
-        <form class="form">
+        <form class="form" id="form">
             <div class="name-field">
             <div class="first-name">
             <lable for="fname" class="name">First Name:</lable>
-            <input type="text" name="name" id="name" class="input-field" placeholder="First name..." required />
+            <input type="text" name="name" id="fname" class="input-field" placeholder="First name..." required />
             <div id="fnameError" class="error"></div>
             </div>
             <div class="last-name">
             <lable for="lname" class="name">Last Name:</lable>
-            <input type="text" name="name" id="name" class="input-field" placeholder="Last name..." required/>
+            <input type="text" name="name" id="lname" class="input-field" placeholder="Last name..." required/>
             <div id="lnameError" class="error"></div>
             </div>
             </div>
             <div>
             <lable for="age" class="name">Age:</lable>
-            <input type="number" class="input-field" placeholder="Age must be 19 and above..." required />
+            <input type="number" id="age" class="input-field" placeholder="Age must be 19 and above..." required />
             <div id="ageError" class="error"></div>
             </div>
             <div>
@@ -50,6 +50,7 @@
             </div>
         </form>
     </div>
+    <script src="index.js" defer></script>
 </body>
 <footer class="footer">
     <div class="footer-container">
