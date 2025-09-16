@@ -40,7 +40,6 @@ html body {
 }
 body {
     background:linear-gradient(to bottom, black, darkblue, blue, darkgrey);
-    flex: 1;
 }
 .nav-bar {
     display: flex;
@@ -345,14 +344,9 @@ textarea {
     align-items: flex-start;
     gap: 1ch;
     margin: 0.5rem;
-    padding: 0.5rem;
-    left: 0;
 }
 .checkbox-text {
     display: inline-flex;
-}
-.form form-btn {
-    justify-self: center;
 }
 .form a {
     text-decoration: underline;
@@ -433,6 +427,27 @@ textarea {
    }
    ul {
     margin: 1rem;
+   }
+   .form-container {
+    height: 150vh;
+   }
+   lable {
+    margin: 0.5rem;
+    padding: 0.5rem;
+   }
+   input {
+    margin: 0.5rem;
+    padding: 0.5rem;
+   }
+   .checkbox {
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-8px);
+   }
+   .form-btn .cta {
+    margin: 1rem;
+    padding: 1rem;
+    transform: translateX(-8px);
    }
    .footer-info {
     margin-top: 1rem;
