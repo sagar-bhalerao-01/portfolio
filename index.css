@@ -328,7 +328,10 @@ lable {
     font-weight: bold;
 }
 .form h2 {
+    transform: translateY(-20px);
+    margin-top: 0.5rem;
     margin: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 input[type="text"],
 input[type="email"],
@@ -355,6 +358,13 @@ textarea {
 .form a:visited {
     text-decoration: underline;
     color: #fff;
+}
+.name-field {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
 }
 
 @media (min-width: 720px) and (orientation: portrait) {
