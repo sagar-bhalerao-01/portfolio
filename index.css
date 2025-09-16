@@ -305,38 +305,41 @@ footer {
 .footer-ul a:visited {
     color: var(--secondary-color);
 }
-.form {
+.form-container {
     display: flex;
     flex-direction: column;
-    /*justify-content: center;
-    align-items: center;*/
-    gap: 1rem;
-    margin: 1rem;
-    padding: 1rem;
+    justify-content: right;
+    align-items: right;
+    height: 100vh;
+    gap: 0.5rem;
+    overflow: hidden;
+    background: var(--glass);
+    backdrop-filter: 3px;
+    -webkit-backdrop-filter: 3px;
+    box-shadow: var(--shadow);
 }
 lable {
-    margin: 1rem;
-    padding: 1rem;
-    text-align: right;
+    margin: 0;
+    padding: 0;
     font-weight: bold;
 }
 .form h2 {
-    padding: 1rem;
+    padding: 0;
     text-align: center;
 }
 .buttons {
-    justify-content: right;
-    margin: 1rem;
-    padding: 1rem;
+    margin: 0;
+    padding: 0;
     cursor: pointer;
     border-radius: 5px;
 }
 input[type="text"],
 input[type="email"],
+input[type="number"],
 textarea {
     box-sizing: border-box;
-    margin: 1rem;
-    padding: 1rem;
+    margin: 0;
+    padding: 0;
     border-radius: 5px;
     width: 100%;
 }
