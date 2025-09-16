@@ -308,40 +308,59 @@ footer {
 .form-container {
     display: flex;
     flex-direction: column;
-    justify-content: right;
-    align-items: right;
-    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
     gap: 0.5rem;
-    overflow: hidden;
+    margin: 1rem;
+    padding: 1rem;
+    position: relative;
+    overflow: visible;
+    border-radius: 10px;
+    border: var(--fifth-border);
     background: var(--glass);
     backdrop-filter: 3px;
     -webkit-backdrop-filter: 3px;
     box-shadow: var(--shadow);
 }
 lable {
-    margin: 0;
-    padding: 0;
+    margin: 0.5rem;
+    padding: 0.5rem;
     font-weight: bold;
 }
 .form h2 {
-    padding: 0;
-    text-align: center;
-}
-.buttons {
-    margin: 0;
-    padding: 0;
-    cursor: pointer;
-    border-radius: 5px;
+    margin: 0.5rem;
 }
 input[type="text"],
 input[type="email"],
 input[type="number"],
 textarea {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 0.5rem;
+    padding: 0.5rem;
     border-radius: 5px;
-    width: 100%;
+    width: 90%;
+}
+.checkbox {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 1ch;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    left: 0;
+}
+.checkbox-text {
+    display: inline-flex;
+}
+.form form-btn {
+    justify-self: center;
+}
+.form a {
+    text-decoration: underline;
+    color: #fff;
+}
+.form a:visited {
+    text-decoration: underline;
+    color: #fff;
 }
 
 @media (min-width: 720px) and (orientation: portrait) {
