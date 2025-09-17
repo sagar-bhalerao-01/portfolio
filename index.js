@@ -12,5 +12,5 @@ document.getElementById("form").addEventListener("submit", function(event) {
         return;
     }
     form.reset();
-    alert("Form submitted...");
+    alert("Form submitted... Thank you for reaching out. I will get back to you as soon as possible...");
 })
