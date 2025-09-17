@@ -11,5 +11,6 @@ document.getElementById("form").addEventListener("submit", function(event) {
         alert("Please enter the valid email ID.");
         return;
     }
+    form.reset();
     alert("Form submitted...");
 })
