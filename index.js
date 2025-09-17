@@ -1,5 +1,5 @@
 document.getElementById('form').addEventListener('submit', function(event) {
-    event.priventDefault();
+    event.preventDefault();
     const age = document.getElementById("age").value;
     const email = document.getElementById("email").value;
     const mailRGX = /^[a-zA-Z0-9_.-]+@[a-zA-Z0-9-]+\.[a-zA-Z]{2,}$/;
