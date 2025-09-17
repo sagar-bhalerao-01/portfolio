@@ -1,4 +1,4 @@
-document.getElementById('form').addEventListener('submit', function(event) {
+document.getElementById("form").addEventListener("submit", function(event) {
     event.preventDefault();
     const age = parseInt(document.getElementById("age").value, 10);
     const email = document.getElementById("email").value;

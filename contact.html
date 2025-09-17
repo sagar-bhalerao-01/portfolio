@@ -12,24 +12,24 @@
         <div class="logo"><a href="index.html">SagarBhalerao</a></div>
         <div class="cta"><a href="index.html">Home</a></div>
     </div>
-    <div class="form-container" action="" method="post" onsubmit="return validateForm()">
+    <div class="form-container">
         <h2>Book Appointment</h2>
-        <form class="form" id="form">
+        <form class="form" id="form" name="form" action="" method="POST">
             <div class="name-field">
             <div class="first-name">
             <lable for="fname" class="name">First Name:</lable>
-            <input type="text" name="name" id="fname" class="input-field" placeholder="First name..." required />
+            <input type="text" name="fname" id="fname" class="input-field" placeholder="First name..." required />
             <div id="fnameError" class="error"></div>
             </div>
             <div class="last-name">
             <lable for="lname" class="name">Last Name:</lable>
-            <input type="text" name="name" id="lname" class="input-field" placeholder="Last name..." required/>
+            <input type="text" name="lname" id="lname" class="input-field" placeholder="Last name..." required/>
             <div id="lnameError" class="error"></div>
             </div>
             </div>
             <div>
             <lable for="age" class="name">Age:</lable>
-            <input type="number" id="age" class="input-field" placeholder="Age must be 19 and above..." required />
+            <input type="number" name="age" id="age" class="input-field" placeholder="Age must be 19 and above..." required />
             <div id="ageError" class="error"></div>
             </div>
             <div>
@@ -50,7 +50,7 @@
             </div>
         </form>
     </div>
-    <script src="index.js" defer></script>
+    <script src="index.js"></script>
 </body>
 <footer class="footer">
     <div class="footer-container">
