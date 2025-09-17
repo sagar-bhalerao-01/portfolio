@@ -17,7 +17,7 @@ document.getElementById("form").addEventListener("submit", function(event) {
         return;
     }
     fetch(endpoint, {
-        method: POST,
+        method: "POST",
         body: formData,
     })
     .then(response => response.text())
