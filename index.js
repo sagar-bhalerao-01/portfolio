@@ -8,8 +8,8 @@ document.getElementById('form').addEventListener('submit', function(event) {
         return;
     }
     if (!mailRGX.test(email)) {
-        alert("Please enter the valid email ID.");
+        Swal.fire("Please enter the valid email ID.");
         return;
     }
-    alert("Form submitted...")
+    Swal.fire("Form submitted...")
 })
