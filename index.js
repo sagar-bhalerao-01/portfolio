@@ -1,6 +1,6 @@
 document.getElementById('form').addEventListener('submit', function(event) {
     event.preventDefault();
-    const age = document.getElementById("age").value;
+    const age = parseInt(document.getElementById("age").value, 10);
     const email = document.getElementById("email").value;
     const mailRGX = /^[a-zA-Z0-9_.-]+@[a-zA-Z0-9-]+\.[a-zA-Z]{2,}$/;
     if (age < 19) {
