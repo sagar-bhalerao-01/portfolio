@@ -2,6 +2,7 @@ document.getElementById("form").addEventListener("submit", function(event) {
     event.preventDefault();
     /*const age = parseInt(document.getElementById("age").value, 10);*/
     /*const endpoint = "https://script.google.com/macros/s/AKfycbw6lnFTTIMrY0gexCZHU7qXVvIWqYBiT_WVa8cinLWeMtPZ6lwyWItaQZfgC5DpCuoxeQ/exec";*/
+    const endpoint = "dummy end point";
     /*const email = document.getElementById("email").value;*/
     const form = event.target;
     const formData = new FormData(form);
