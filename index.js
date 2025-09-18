@@ -1,7 +1,7 @@
 document.getElementById("form").addEventListener("submit", function(event) {
     event.preventDefault();
     /*const age = parseInt(document.getElementById("age").value, 10);*/
-    const endpoint = "https://script.google.com/macros/s/AKfycbw6lnFTTIMrY0gexCZHU7qXVvIWqYBiT_WVa8cinLWeMtPZ6lwyWItaQZfgC5DpCuoxeQ/exec";
+    const endpoint = "dummy";
     /*const email = document.getElementById("email").value;*/
     const form = event.target;
     const formData = new FormData(form);
@@ -22,10 +22,11 @@ document.getElementById("form").addEventListener("submit", function(event) {
     })
     .then(response => response.text())
     .then(result => {
-        alert("Appointment Booked... Thank you for reaching out. I will get back to you as soon as possible...") + result;
+        alert("Appointment Booked... Thank you for contacting. I will get back to you as soon as possible...") + result;
         form.reset();
     })
     .catch(error => {
-        alert("Form is still under development, try reaching out to me on my LinkedIn, X or Upwork profiles...") + error;
+        alert("Form is still under development, try connecting to me on my LinkedIn, X or Upwork profiles...") + error;
     });
+    alert("This functionality is still under development, try connecting to me on my LinkedIn, X or Upwork profiles...");
 });
