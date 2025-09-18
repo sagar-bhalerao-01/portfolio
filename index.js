@@ -1,7 +1,7 @@
 document.getElementById("form").addEventListener("submit", function(event) {
     event.preventDefault();
     /*const age = parseInt(document.getElementById("age").value, 10);*/
-    const endpoint = "https://script.google.com/macros/s/AKfycbw6lnFTTIMrY0gexCZHU7qXVvIWqYBiT_WVa8cinLWeMtPZ6lwyWItaQZfgC5DpCuoxeQ/exec";
+    /*const endpoint = "https://script.google.com/macros/s/AKfycbw6lnFTTIMrY0gexCZHU7qXVvIWqYBiT_WVa8cinLWeMtPZ6lwyWItaQZfgC5DpCuoxeQ/exec";*/
     /*const email = document.getElementById("email").value;*/
     const form = event.target;
     const formData = new FormData(form);
@@ -26,6 +26,6 @@ document.getElementById("form").addEventListener("submit", function(event) {
         form.reset();
     })
     .catch(error => {
-        alert("Failed to book appointment due to technical failure, try reaching out to me on my LinkedIn, X or Upwork profiles...") + error;
+        alert("Form is still under development, try reaching out to me on my LinkedIn, X or Upwork profiles...") + error;
     });
 });
