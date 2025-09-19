@@ -22,7 +22,7 @@ document.getElementById("form").addEventListener("submit", function(event) {
     })
     .then(response => response.text())
     .then(result => {
-        alert("Appointment Booked... Thank you for contacting. I will get back to you as soon as possible...") + result;
+        /*alert("Appointment Booked... Thank you for contacting. I will get back to you as soon as possible...") + result;*/
         form.reset();
     })
     .catch(error => {
