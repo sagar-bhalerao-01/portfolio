@@ -43,8 +43,7 @@ body {
 }
 .nav-bar {
     display: flex;
-    /*justify-content:space-between;*/
-    justify-content: space-around;
+    justify-content:space-between;
     align-items: center;
     flex-direction: center;
     position: sticky;
