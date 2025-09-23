@@ -175,6 +175,22 @@ a {
     transform: translateX(-18px);
     word-spacing: 6rem;
 }
+.word7 {
+    display: inline-block;
+    white-space: nowrap;
+    color: white;
+    font: 0.5rem;
+    transform: translateX (-10px);
+    word-spacing: 3rem;
+}
+.word8 {
+    display: inline-block;
+    white-space: nowrap;
+    color: white;
+    font: 2.5rem;
+    transform: translateX(-5px);
+    word-spacing: 2rem;
+}
 .slate {
     text-align: center;
     justify-content: center;
@@ -184,6 +200,7 @@ a {
     overflow: hidden;
 }
 .hero-info {
+    padding: 2rem;
     justify-content: right;
     align-items: right;
     height: 60%;
@@ -387,6 +404,9 @@ textarea {
     .hero-container {
         height: 100vh;
     }
+    .card img {
+        object-fit: cover;
+    }
 }
 
 @media (max-width: 1600px) and (orientation: landscape) {
@@ -438,6 +458,9 @@ textarea {
    }
    .card {
     height: 100%;
+   }
+   .card img {
+    object-fit: cover;
    }
    ul {
     margin: 1rem;
