@@ -107,7 +107,6 @@ a {
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(3px);
     box-shadow: var(--shadow);
-    position: relative;
     overflow: hidden;
     margin: var(--primary-size);
     margin-bottom: var(--secondary-size);
@@ -258,7 +257,7 @@ p {
     height: 60%;
     width: 100%;
     border-radius: 5px;
-    position: absolute;
+    overflow: hidden;
     padding: var(--fifth-size);
     box-shadow: var(--shadow);
     object-fit: cover;
@@ -297,7 +296,7 @@ li {
 }
 footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: var(--ftc-color);
     margin: var(--primary-size);
